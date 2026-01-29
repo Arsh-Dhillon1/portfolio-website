@@ -43,8 +43,6 @@ a:hover{
     display:flex;
     gap:10px;
     margin-top: 10px;
-
-    
 }
 
 .work-button{
@@ -92,4 +90,62 @@ a:hover{
     font-weight: 400;
     margin-bottom: 24px;
     color: #e0e0e0;
+}
+
+
+/* About Me Section */
+.About-me-section{
+    display:flex;
+    background-color: #f7f7f7;
+    gap:80px;
+    padding: 60px 80px;
+}
+
+
+.my-pic{
+    padding:8px;
+    background-color: none;
+    border-radius:8px; 
+}
+
+.my-pic img{
+    width:200px;
+    border-radius:6px;
+    /* display:block; */
+}
+
+.title{
+    font-size:20px;
+    font-weight:600;
+    font-family:Arial;
+}
+
+.info{
+    font-size:17px;
+    font-family:Arial;
+}
+
+.info ul{
+    margin-bottom: 20px;
+    padding-left: 18px;
+}
+.read-more-button button{
+    background-color: black;
+    color:white;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:7px;
+    padding-bottom:7px;
+}
+
+.read-more-button button:hover{
+    opacity:0.6;
+    cursor:pointer;
+}
+
+@media (max-width: 768px) {
+    .About-me-section{
+        flex-direction: column;
+        align-items: center;
+    }
 }
