@@ -1,3 +1,5 @@
+/* NavBar Section */
+
 .navbar{
     display:flex;
     align-items: center;
@@ -9,6 +11,11 @@
     color:white;
 }
 
+/* .Logo image{
+    height:20px;
+    width:20px;
+} */
+
 .nav-links{
     display:flex;
     gap:24px;
@@ -16,6 +23,7 @@
 }
 
 a{
+    font-weight:600;
     text-decoration: none;
 }
 a:hover{
@@ -25,7 +33,7 @@ a:hover{
 
 /* HERO SECTION */
 .Hero-section{
-    background-image: url(../images/building-image.jpg);
+    background-image: url(../images/building-4.jpg);
     background-size:cover;
     height:400px;
     color:white;
@@ -118,6 +126,9 @@ a:hover{
     font-size:20px;
     font-weight:600;
     font-family:Arial;
+    text-decoration: underline;
+    text-decoration-color:rgb(200, 200, 132) ;
+    text-underline-offset: 7px;
 }
 
 .info{
@@ -129,6 +140,7 @@ a:hover{
     margin-bottom: 20px;
     padding-left: 18px;
 }
+
 .read-more-button button{
     background-color: black;
     color:white;
@@ -148,4 +160,126 @@ a:hover{
         flex-direction: column;
         align-items: center;
     }
+}
+
+
+/* Project Section */
+.project-section{
+    padding: 60px 80px;
+    background-color: black;
+}
+
+.project-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+    color:white;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 370px;
+}
+
+.project-card {
+    background-color: #f7f7f7;
+    padding: 24px;
+    /* padding-left:80px;
+    padding-right:80px; */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.project-card h3 {
+    margin-bottom: 12px;
+}
+
+.project-card p {
+    margin-bottom: 16px;
+    color: #555;
+}
+
+.project-card button{
+    background-color: black;
+    color:white;
+    padding-right:15px;
+    padding-left:15px;
+    padding-top:8px;
+    padding-bottom:8px;
+}
+
+.project-cart button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+/* Contact Section */
+.Contact-section{
+    /* padding-left: 60px;
+    padding-right: 80px; */
+    padding: 60px 80px;
+
+    background-color: #f7f7f7;
+}
+
+.Contact-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+/* 
+.contact-details {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+} */
+
+/* .personal-details {
+    max-width: 300px;
+}
+
+.personal-details p {
+    margin-bottom: 12px;
+    font-size: 16px;
+} */
+
+.consumer-details {
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    width: 320px;
+    margin-left:490px;
+}
+
+.consumer-details form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.consumer-details input,
+.consumer-details textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.consumer-details textarea {
+    resize: none;
+    height: 100px;
+}
+
+.consumer-details button {
+    margin-top: 12px;
+    background-color: #2f343a;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
 }
