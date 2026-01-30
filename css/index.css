@@ -228,8 +228,12 @@ a:hover{
     text-align: center;
     margin-bottom: 40px;
 }
-/* 
-.contact-details {
+
+.contact-details{
+    padding-right:30px;
+}
+
+/* .contact-details {
     display: flex;
     gap: 40px;
     justify-content: center;
@@ -251,6 +255,8 @@ a:hover{
     box-shadow: 0 6px 16px rgba(0,0,0,0.1);
     width: 320px;
     margin-left:490px;
+    padding-right:45px
+
 }
 
 .consumer-details form {
@@ -282,4 +288,30 @@ a:hover{
     border-radius: 6px;
     cursor: pointer;
     font-weight: 600;
+}
+
+
+
+/* Footer Section */
+.footer {
+    background-color: #2f343a;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:0px;
+    padding-right:80px;
+    /* padding-bottom:120px; */
+}
+
+.footer-links {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
 }
